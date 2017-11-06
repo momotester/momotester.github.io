@@ -1,16 +1,588 @@
 {
-  "game": [{
-    "type": "spritesheet",
-    "key": "BA_StartBt",
-    "url": "assets/BA_StartBt.png",
-    "frameWidth": 118,
-    "frameHeight": 73,
-    "frameMax": -1,
-    "margin": 0,
-    "spacing": 0
-  }],
+  "Game": [
+    {
+      "type": "image",
+      "key": "GameBackground",
+      "url": "assets/game/BU_BG.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "StartBt",
+      "url": "assets/game/SpriteSheet/BA_StartBt.png",
+      "frameWidth": 118,
+      "frameHeight": 73,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "AutoBt",
+      "url": "assets/game/SpriteSheet/BA_AutoBt.png",
+      "frameWidth": 74,
+      "frameHeight": 67,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "DoubleLBt",
+      "url": "assets/game/SpriteSheet/BA_DoubleLBt.png",
+      "frameWidth": 60,
+      "frameHeight": 70,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "DoubleRBt",
+      "url": "assets/game/SpriteSheet/BA_DoubleRBt.png",
+      "frameWidth": 60,
+      "frameHeight": 70,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "FunctionBt",
+      "url": "assets/game/SpriteSheet/BU_FunctionBt.png",
+      "frameWidth": 58,
+      "frameHeight": 58,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "HomeBt",
+      "url": "assets/game/SpriteSheet/BU_HomeBt.png",
+      "frameWidth": 58,
+      "frameHeight": 58,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "Symbol01Bt",
+      "url": "assets/game/SpriteSheet/BA_Symbol01Bt.png",
+      "frameWidth": 92,
+      "frameHeight": 80,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "Symbol02Bt",
+      "url": "assets/game/SpriteSheet/BA_Symbol02Bt.png",
+      "frameWidth": 85,
+      "frameHeight": 80,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "Symbol03Bt",
+      "url": "assets/game/SpriteSheet/BA_Symbol03Bt.png",
+      "frameWidth": 78,
+      "frameHeight": 80,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "Symbol04Bt",
+      "url": "assets/game/SpriteSheet/BA_Symbol04Bt.png",
+      "frameWidth": 69,
+      "frameHeight": 80,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "Symbol05Bt",
+      "url": "assets/game/SpriteSheet/BA_Symbol05Bt.png",
+      "frameWidth": 69,
+      "frameHeight": 80,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "Symbol06Bt",
+      "url": "assets/game/SpriteSheet/BA_Symbol06Bt.png",
+      "frameWidth": 78,
+      "frameHeight": 80,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "Symbol07Bt",
+      "url": "assets/game/SpriteSheet/BA_Symbol07Bt.png",
+      "frameWidth": 85,
+      "frameHeight": 80,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "Symbol08Bt",
+      "url": "assets/game/SpriteSheet/BA_Symbol08Bt.png",
+      "frameWidth": 92,
+      "frameHeight": 80,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "bitmapFont",
+      "key": "Number02",
+      "textureURL": "assets/game/Number/BU_Number02.png",
+      "atlasURL": "assets/game/Number/BU_Number02.xml",
+      "xSpacing": 0,
+      "ySpacing": 0
+    },
+    {
+      "type": "bitmapFont",
+      "key": "Number05",
+      "textureURL": "assets/game/Number/BU_Number05.png",
+      "atlasURL": "assets/game/Number/BU_Number05.xml",
+      "xSpacing": 0,
+      "ySpacing": 0
+    },
+    {
+      "type": "bitmapFont",
+      "key": "Number03",
+      "textureURL": "assets/game/Number/BU_Number03.png",
+      "atlasURL": "assets/game/Number/BU_Number03.xml",
+      "xSpacing": 0,
+      "ySpacing": 0
+    },
+    {
+      "type": "bitmapFont",
+      "key": "Number06",
+      "textureURL": "assets/game/Number/BU_Number06.png",
+      "atlasURL": "assets/game/Number/BU_Number06.xml",
+      "xSpacing": 0,
+      "ySpacing": 0
+    },
+    {
+      "type": "audio",
+      "key": "BS_BetBt01",
+      "urls": ["assets/game/Audio/BS_BetBt01.wav"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "BS_BetBt02",
+      "urls": ["assets/game/Audio/BS_BetBt02.wav"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "BS_BetBt03",
+      "urls": ["assets/game/Audio/BS_BetBt03.wav"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "BS_BetBt04",
+      "urls": ["assets/game/Audio/BS_BetBt04.wav"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "BS_BetBt05",
+      "urls": ["assets/game/Audio/BS_BetBt05.wav"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "BS_BetBt06",
+      "urls": ["assets/game/Audio/BS_BetBt06.wav"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "BS_BetBt07",
+      "urls": ["assets/game/Audio/BS_BetBt07.wav"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "BS_BetBt08",
+      "urls": ["assets/game/Audio/BS_BetBt08.wav"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "BS_BonusNoWin",
+      "urls": ["assets/game/Audio/BS_BonusNoWin.wav"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "BS_BonusRun01",
+      "urls": ["assets/game/Audio/BS_BonusRun01.wav"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "BS_BonusRun02",
+      "urls": ["assets/game/Audio/BS_BonusRun02.wav"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "BS_BonusRun03",
+      "urls": ["assets/game/Audio/BS_BonusRun03.wav"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "BS_BonusWin01",
+      "urls": ["assets/game/Audio/BS_BonusWin01.wav"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "BS_BonusWin02",
+      "urls": ["assets/game/Audio/BS_BonusWin02.wav"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "BS_BonusWin03",
+      "urls": ["assets/game/Audio/BS_BonusWin03.wav"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "BS_DoubleLose",
+      "urls": ["assets/game/Audio/BS_DoubleLose.wav"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "BS_DoubleRun",
+      "urls": ["assets/game/Audio/BS_DoubleRun.wav"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "BS_DoubleWin",
+      "urls": ["assets/game/Audio/BS_DoubleWin.wav"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "BS_HitJP",
+      "urls": ["assets/game/Audio/BS_HitJP.wav"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "BS_HitLuckyTime01",
+      "urls": ["assets/game/Audio/BS_HitLuckyTime01.wav"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "BS_HitLuckyTime02",
+      "urls": ["assets/game/Audio/BS_HitLuckyTime02.wav"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "BS_Normal02",
+      "urls": ["assets/game/Audio/BS_Normal02.wav"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "BS_NormalRun",
+      "urls": ["assets/game/Audio/BS_NormalRun.wav"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "CS_PressBt",
+      "urls": ["assets/game/Audio/CS_PressBt.wav"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "CS_Scoring",
+      "urls": ["assets/game/Audio/CS_Scoring.wav"],
+      "autoDecode": true
+    },
+    {
+      "type": "spritesheet",
+      "key": "JackpotLamp",
+      "url": "assets/game/SpriteSheet/BU_JP.png",
+      "frameWidth": 107,
+      "frameHeight": 99,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "bitmapFont",
+      "key": "Number04",
+      "textureURL": "assets/game/Number/BU_Number04.png",
+      "atlasURL": "assets/game/Number/BU_Number04.xml",
+      "xSpacing": 0,
+      "ySpacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "BA_AllAdd1",
+      "url": "assets/game/SpriteSheet/BA_AllAdd1.png",
+      "frameWidth": 74,
+      "frameHeight": 67,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "atlas",
+      "key": "CenterSignIdle1",
+      "textureURL": "assets/game/Atlas/CenterSignIdle1.png",
+      "atlasURL": "assets/game/Atlas/CenterSignIdle1.json",
+      "format": "TEXTURE_ATLAS_JSON_HASH"
+    },
+    {
+      "type": "atlas",
+      "key": "CenterSignIdle2",
+      "textureURL": "assets/game/Atlas/CenterSignIdle2.png",
+      "atlasURL": "assets/game/Atlas/CenterSignIdle2.json",
+      "format": "TEXTURE_ATLAS_JSON_HASH"
+    },
+    {
+      "type": "atlas",
+      "key": "CenterSignIdle3",
+      "textureURL": "assets/game/Atlas/CenterSignIdle3.png",
+      "atlasURL": "assets/game/Atlas/CenterSignIdle3.json",
+      "format": "TEXTURE_ATLAS_JSON_HASH"
+    },
+    {
+      "type": "atlas",
+      "key": "CenterSignIdle4",
+      "textureURL": "assets/game/Atlas/CenterSignIdle4.png",
+      "atlasURL": "assets/game/Atlas/CenterSignIdle4.json",
+      "format": "TEXTURE_ATLAS_JSON_HASH"
+    },
+    {
+      "type": "atlas",
+      "key": "CenterSignWin1",
+      "textureURL": "assets/game/Atlas/CenterSignWin1.png",
+      "atlasURL": "assets/game/Atlas/CenterSignWin1.json",
+      "format": "TEXTURE_ATLAS_JSON_HASH"
+    },
+    {
+      "type": "atlas",
+      "key": "CenterSignWin2",
+      "textureURL": "assets/game/Atlas/CenterSignWin2.png",
+      "atlasURL": "assets/game/Atlas/CenterSignWin2.json",
+      "format": "TEXTURE_ATLAS_JSON_HASH"
+    },
+    {
+      "type": "atlas",
+      "key": "WinBolt",
+      "textureURL": "assets/game/Atlas/WinBolt.png",
+      "atlasURL": "assets/game/Atlas/WinBolt.json",
+      "format": "TEXTURE_ATLAS_JSON_HASH"
+    },
+    {
+      "type": "atlas",
+      "key": "GameImage1",
+      "textureURL": "assets/game/Atlas/GameImage1.png",
+      "atlasURL": "assets/game/Atlas/GameImage1.json",
+      "format": "TEXTURE_ATLAS_JSON_HASH"
+    },
+    {
+      "type": "audio",
+      "key": "BS_WinBG01",
+      "urls": ["assets/game/Audio/BS_WinBG01 .mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "BS_WinBG02",
+      "urls": ["assets/game/Audio/BS_WinBG02.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "BS_WinBG03",
+      "urls": ["assets/game/Audio/BS_WinBG03.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "BS_WinBG04",
+      "urls": ["assets/game/Audio/BS_WinBG04.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "BS_WinBG05",
+      "urls": ["assets/game/Audio/BS_WinBG05.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "BS_WinBG06",
+      "urls": ["assets/game/Audio/BS_WinBG06.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "BS_WinBG07",
+      "urls": ["assets/game/Audio/BS_WinBG07.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "BS_WinBG08",
+      "urls": ["assets/game/Audio/BS_WinBG08.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "BS_Normal03_00",
+      "urls": ["assets/game/Audio/BS_Normal03_00.wav"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "BS_Normal03_01",
+      "urls": ["assets/game/Audio/BS_Normal03_01.wav"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "BS_Normal03_02",
+      "urls": ["assets/game/Audio/BS_Normal03_02.wav"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "BS_Normal03_03",
+      "urls": ["assets/game/Audio/BS_Normal03_03.wav"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "BS_Normal03_04",
+      "urls": ["assets/game/Audio/BS_Normal03_04.wav"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "BS_Normal03_05",
+      "urls": ["assets/game/Audio/BS_Normal03_05.wav"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "BS_Normal03_06",
+      "urls": ["assets/game/Audio/BS_Normal03_06.wav"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "BS_Normal03_07",
+      "urls": ["assets/game/Audio/BS_Normal03_07.wav"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "BS_Normal03_08",
+      "urls": ["assets/game/Audio/BS_Normal03_08.wav"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "BS_Normal03_09",
+      "urls": ["assets/game/Audio/BS_Normal03_09.wav"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "BS_Normal01_00",
+      "urls": ["assets/game/Audio/BS_Normal01_00.wav"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "BS_Normal01_01",
+      "urls": ["assets/game/Audio/BS_Normal01_01.wav"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "BS_Normal01_02",
+      "urls": ["assets/game/Audio/BS_Normal01_02.wav"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "BS_Normal01_03",
+      "urls": ["assets/game/Audio/BS_Normal01_03.wav"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "BS_Normal01_04",
+      "urls": ["assets/game/Audio/BS_Normal01_04.wav"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "BS_Normal01_05",
+      "urls": ["assets/game/Audio/BS_Normal01_05.wav"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "BS_Normal01_06",
+      "urls": ["assets/game/Audio/BS_Normal01_06.wav"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "BS_Normal01_07",
+      "urls": ["assets/game/Audio/BS_Normal01_07.wav"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "BS_Normal01_08",
+      "urls": ["assets/game/Audio/BS_Normal01_08.wav"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "BS_Normal01_09",
+      "urls": ["assets/game/Audio/BS_Normal01_09.wav"],
+      "autoDecode": true
+    }
+  ],
   "meta": {
-    "generated": "1502435108023",
+    "generated": "1509689515767",
     "app": "Phaser Editor",
     "url": "http://phasereditor.boniatillo.com",
     "version": "1.0",
