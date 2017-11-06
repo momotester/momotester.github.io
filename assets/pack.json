@@ -1,0 +1,19 @@
+{
+  "game": [{
+    "type": "spritesheet",
+    "key": "BA_StartBt",
+    "url": "assets/BA_StartBt.png",
+    "frameWidth": 118,
+    "frameHeight": 73,
+    "frameMax": -1,
+    "margin": 0,
+    "spacing": 0
+  }],
+  "meta": {
+    "generated": "1502435108023",
+    "app": "Phaser Editor",
+    "url": "http://phasereditor.boniatillo.com",
+    "version": "1.0",
+    "copyright": "Arian Fornaris (c) 2015,2016"
+  }
+}
